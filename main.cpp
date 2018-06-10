@@ -26,7 +26,8 @@ int main()
         std::cout << "curl_global_init failed." << std::endl;
         return 1;
     }
-    
+
+    std::cout << "my zhangmai" << std::endl;
     //下载
     std::string url("http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.01/en_US/AdbeRdr11001_en_US.exe");
     curlRest->Download(url, "AdbeRdr11001_en_US.exe");
